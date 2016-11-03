@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background: #000;
+				cursor: pointer;
+				margin: 0;
+			}
+			.center {
+				text-align: center;
+			}
+			.row {
+				overflow: hidden;
+			}
+			.row div {
+				background: #9cf;
+				float: left;
+				height: 5px;
+				width: 5px;
+			}
+			.row div.active {
+				background: #5be;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script src="mithril.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
